@@ -1,19 +1,23 @@
 html {
     scroll-behavior: smooth;
 }
+
 body{
     position: relative;
     margin: 0;
     font-size: 12px;
 }
+
 .wrapper {
     width: 1020px;
     margin: 0 auto;
 }
+
 .wrapper-description {
     margin-top: 20px;
     font-size: 16px;
 }
+
 .wrapper-text {
     width: 100%;
     min-height: 250px;
@@ -23,9 +27,11 @@ body{
     padding: 10px;
     margin-bottom: 10px;
 }
+
 .curret {
     border-bottom: 1px solid black;
 }
+
 .wrapper-keyboard {
     color: #000000;
     font-size: 14px;
@@ -34,12 +40,15 @@ body{
     border: 5px solid #000000;
     box-sizing: border-box;
 }
+
 .row {
     display: flex;
 }
+
 .row2 span:last-child {
     text-align: right;
 }
+
 .button {
     flex: 1 1 auto;
     min-height: 34px;
@@ -51,29 +60,37 @@ body{
     background-color: transparent;
     -webkit-user-select: none;
 }
+
 .button p > span:empty {
     display: none;
 }
+
 .button:hover {
     transform: scale(1.05);
 }
+
 .row1 .button:last-child {
     flex-basis: 100px;
 }
+
 .row2 .button:last-child,
 .row2 .button:first-child {
     flex-basis: 75px;
 }
+
 .row5 .button:nth-child(4) {
     flex-basis: 159px;
 }
+
 .active {
     background-color: black;
     color: #ffffff;
 }
+
 .button span:nth-child(1) {
     margin-right: 10px;
 }
+
 .button p {
     padding: 0;
     margin: 0;
